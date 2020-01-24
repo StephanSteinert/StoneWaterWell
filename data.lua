@@ -2,6 +2,7 @@ local waterwell = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 waterwell.name = "stone-waterwell"
 waterwell.icon = "__StoneWaterWell__/graphics/stone-waterwell.icon.png"
 waterwell.icon_size = 32
+waterwell.icon_mipmaps = 1
 
 for i,d in ipairs({"north", "east", "south", "west"}) do
 	waterwell.picture[d] = 
